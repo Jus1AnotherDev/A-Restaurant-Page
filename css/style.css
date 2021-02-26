@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  background-color: black;
+  z-index: 2;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-image: url("./images/Restaurant_Image.jpg");
+}
+
+#homeTransperancyLayer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 0;
+}
+
+#homeContent {
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#homeContent h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 45vh;
+}
+
+#homeContent p {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #d6e4b6;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#menuHeading {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  display: block;
+}
+
+#imgMenu {
+  max-height: 90%;
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+}
+
+#contactCenterAlign {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#contactHeading {
+  margin: 0;
+  padding: 0;
+}
+
+#contactImg {
+  max-height: 50px;
+}
